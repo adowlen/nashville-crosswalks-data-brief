@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "rows": true,
+    "poor_n": true,
+    "poor_pct": true,
+    "slope_le2_pct": true,
+    "slope_above_n": true,
+    "transverse_poor_pct": true,
+    "nc_na_same_records": true,
+    "width_median_positive": true,
+    "width_zero_n": true,
+    "asset_all_distinct": true,
+    "audit_all_2023": true
+  },
+  "pass_count": 11,
+  "total": 11,
+  "all_pass": true
+}
