@@ -1,0 +1,6 @@
+paint_code,label,n,pct_of_all
+G,Good,734,40.3
+P,Poor,683,37.5
+F,Fair,389,21.3
+NA,NA (not in metadata domain),16,0.9
+Blank,Blank,1,0.1

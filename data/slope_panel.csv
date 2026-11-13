@@ -1,0 +1,5 @@
+slope_code,label,n,pct_of_recorded,pct_of_all
+<= 2%,Less Than or Equal to 2%,626,34.6,34.3
+2% - 5%,Between 2% - 5%,1020,56.3,56.0
+> 5%,Greater than 5%,165,9.1,9.1
+Blank,Blank,12,,0.7

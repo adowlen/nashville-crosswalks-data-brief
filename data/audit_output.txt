@@ -1,0 +1,18 @@
+rows=1823
+Counter FeatureType: {'L': 1563, 'T': 237, 'NC': 16, '': 7}
+Counter PaintCondition: {'G': 734, 'P': 683, 'F': 389, 'NA': 16, '': 1}
+Counter CrossSlope: {'2% - 5%': 1020, '<= 2%': 626, '> 5%': 165, '': 12}
+Counter Inspector: {'CW': 442, 'LW': 226, 'KB': 199, 'JoS': 196, 'SD': 132, 'RL': 116, 'JE': 95, 'JB': 67, 'JSw': 58, 'AD': 57, 'MM': 57, 'TR': 34, 'TO': 27, 'LN': 23, 'JS': 20, 'MT': 20, 'RM': 17, 'TM': 12, 'MC': 10, '': 9, 'ML': 3, 'DF': 3}
+Width blank: 1; Width == 0 sentinel count: 35 (treated as unknown: a crosswalk in the audit cannot be read as zero-width from this field alone; excluded from width medians and distribution denominators, counted and reported here)
+Width positive count: 1787; unknown (0 or blank) count: 36; positive + unknown = 1823 = total rows 1823
+Width 0 by FeatureType: {'NC': 16, 'L': 13, '': 4, 'T': 2}; Width 0 coded records by PaintCondition: {'P': 18, 'F': 1}
+Polarity sample EXCLUDED from width denominators (Width==0): [('52', '0', 'NC', 'NA'), ('182', '0', 'NC', 'NA'), ('194', '0', 'NC', 'NA')]
+Polarity sample INCLUDED in width denominators (Width>0): [('1', '10', 'L', 'P'), ('2', '10', 'L', 'P'), ('3', '10', 'L', 'P')]
+Polarity check: code keeps Width>0 in medians/distributions and excludes Width==0 as unknown - matches the stated sentinel rule and its comment.
+FeatureType NC count: 16; PaintCondition NA count: 16; same OBJECTIDs: True; NC Width values: {'0': 16}
+NC and NA do not appear in the layer metadata coded-value domains for FeatureType or PaintCondition; they are reported as a distinct subpopulation, never merged into the coded categories.
+CrossSlope recorded: 1811 of 1823; blank: 12; recorded + blank = 1823; slope bucket shares use the recorded population (1,811) as denominator, printed with the count
+PaintCondition recorded (including off-codebook NA): 1822 of 1823; blank: 1; paint shares in the brief use the full 1,823 denominator with counts printed
+Unit agreement: every rate is crosswalk records over crosswalk records on the same stated population; Width carries no unit in the layer metadata and no unit is stated anywhere in the brief.
+AssetID populated: 1823; AssetID distinct: 1823
+AuditDate populated: 1816; blank: 7; min UTC: 2023-03-13; max UTC: 2023-12-09; all in 2023: True

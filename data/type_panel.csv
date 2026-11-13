@@ -1,0 +1,5 @@
+type_code,label,n,pct_of_all,poor_n,poor_pct_of_type,slope_recorded_n,slope_le2_n,slope_le2_pct_of_recorded
+T,Transverse,237,13.0,120,50.6,235,96,40.9
+L,Longitudinal,1563,85.7,557,35.6,1553,516,33.2
+NC,NC (not in metadata domain),16,0.9,0,0.0,16,12,75.0
+Blank,Blank,7,0.4,,,,,
