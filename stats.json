@@ -1,0 +1,142 @@
+{
+  "dataset": "Nashville Crosswalks (Crosswalks_2_view, layer 0)",
+  "snapshot_date": "2026-11-13",
+  "rows": 1823,
+  "server_count": 1823,
+  "unit": "one row = one audited crosswalk record as served by the view",
+  "paint_counter": {
+    "G": 734,
+    "P": 683,
+    "F": 389,
+    "NA": 16,
+    "Blank": 1
+  },
+  "paint_poor": {
+    "n": 683,
+    "pct_of_all": 37.5
+  },
+  "feature_counter": {
+    "L": 1563,
+    "T": 237,
+    "NC": 16,
+    "Blank": 7
+  },
+  "slope_counter": {
+    "<= 2%": 626,
+    "2% - 5%": 1020,
+    "> 5%": 165,
+    "Blank": 12
+  },
+  "slope_recorded": {
+    "recorded_n": 1811,
+    "le2_n": 626,
+    "le2_pct_of_recorded": 34.6,
+    "above_le2_n": 1185,
+    "above_le2_pct_of_recorded": 65.4
+  },
+  "width": {
+    "populated_n": 1822,
+    "blank_n": 1,
+    "zero_n": 35,
+    "zero_nc_n": 16,
+    "zero_coded_n": 19,
+    "zero_coded_paint": {
+      "P": 18,
+      "F": 1
+    },
+    "positive_n": 1787,
+    "median_positive": 10,
+    "median_all_populated": 10.0,
+    "unit": "not stated in the layer metadata",
+    "distribution_positive": {
+      "under_6": 23,
+      "6_to_under_10": 179,
+      "10_to_under_15": 1568,
+      "15_plus": 17
+    }
+  },
+  "audit_date": {
+    "populated_n": 1816,
+    "blank_n": 7,
+    "min": "2023-03-13",
+    "max": "2023-12-09",
+    "all_in_2023": true
+  },
+  "by_type": {
+    "Transverse": {
+      "n": 237,
+      "pct_of_all": 13.0,
+      "poor_n": 120,
+      "poor_pct_of_type": 50.6,
+      "slope_recorded_n": 235,
+      "slope_le2_n": 96,
+      "slope_le2_pct_of_recorded": 40.9
+    },
+    "Longitudinal": {
+      "n": 1563,
+      "pct_of_all": 85.7,
+      "poor_n": 557,
+      "poor_pct_of_type": 35.6,
+      "slope_recorded_n": 1553,
+      "slope_le2_n": 516,
+      "slope_le2_pct_of_recorded": 33.2
+    }
+  },
+  "off_codebook_control": {
+    "nc_n": 16,
+    "na_paint_n": 16,
+    "same_records": true,
+    "all_width_zero": true
+  },
+  "asset_id": {
+    "populated_n": 1823,
+    "distinct_n": 1823
+  },
+  "paint_by_slope_crosstab": {
+    "P": {
+      "n": 683,
+      "slope": {
+        "<= 2%": 238,
+        "2% - 5%": 373,
+        "> 5%": 66,
+        "Blank": 6
+      }
+    },
+    "F": {
+      "n": 389,
+      "slope": {
+        "2% - 5%": 219,
+        "<= 2%": 129,
+        "> 5%": 39,
+        "Blank": 2
+      }
+    },
+    "G": {
+      "n": 734,
+      "slope": {
+        "> 5%": 59,
+        "2% - 5%": 425,
+        "<= 2%": 246,
+        "Blank": 4
+      }
+    },
+    "NA": {
+      "n": 16,
+      "slope": {
+        "<= 2%": 12,
+        "2% - 5%": 3,
+        "> 5%": 1
+      }
+    },
+    "Blank": {
+      "n": 1,
+      "slope": {
+        "<= 2%": 1
+      }
+    }
+  },
+  "human_scale_derived": {
+    "poor_about": "about 1 in 3 audited crosswalks is recorded Poor (683 of 1,823)",
+    "slope_above_about": "about 2 in 3 recorded cross slopes sit above the lowest bucket (1,185 of 1,811)"
+  }
+}
